@@ -1,4 +1,5 @@
 # lincfolio
+### [Docs](https://github.com/lincfolio/lincfolio/blob/main/docs/README.md)
 Lincoln + Link + Portfolio = lincfolio
 
 ## NOTICE
