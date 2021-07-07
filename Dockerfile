@@ -11,10 +11,9 @@ RUN php -r "copy('https://getcomposer.org/installer', 'composer-setup.php');" &&
 
 WORKDIR /var/www
 
-RUN git clone https://github.com/lincfolio/lincfolio.git
+RUN rm -rf ./*
+RUN git clone https://github.com/lincfolio/lincfolio .
 RUN mv public html
-RUN mv html/public/* html
-RUN rm -r html/public
 RUN chmod 770 .
 RUN chmod 775 html
 RUN composer require klein/klein
