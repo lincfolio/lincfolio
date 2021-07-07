@@ -1,2 +1,5 @@
 # lincfolio
-An Open Source Alternative to Linktree
+Lincoln + Link + Portfolio = lincfolio
+
+## NOTICE
+This project is in very early development. **EXPECT BUGS**
