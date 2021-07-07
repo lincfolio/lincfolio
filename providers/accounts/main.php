@@ -1,7 +1,5 @@
 <?php
 
-require("../providers/provinc.php");
-
 $data = getData($username);
 
 $accounts = '<table class="table"><tbody>';

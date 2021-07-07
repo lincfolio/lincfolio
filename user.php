@@ -1,6 +1,7 @@
 <?php
 
 require("getdata.php");
+require("providers/provinc.php");
 
 function renderUserPage($username) {
     $data = getData($username);
@@ -43,6 +44,7 @@ function renderUserPage($username) {
     ');
 
     require('providers/accounts/main.php');
+    require('providers/pronouns/main.php');
 
     echo('
 
