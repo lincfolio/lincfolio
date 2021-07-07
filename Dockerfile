@@ -11,7 +11,7 @@ RUN php -r "copy('https://getcomposer.org/installer', 'composer-setup.php');" &&
 
 WORKDIR /var/www
 
-COPY . .
+RUN git clone https://github.com/lincfolio/lincfolio.git
 RUN mv public html
 RUN mv html/public/* html
 RUN rm -r html/public
