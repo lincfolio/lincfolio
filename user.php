@@ -43,6 +43,7 @@ function renderUserPage($username) {
 
     ');
 
+    require('providers/aboutme/main.php');
     require('providers/accounts/main.php');
     require('providers/pronouns/main.php');
 
