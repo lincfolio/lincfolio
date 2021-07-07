@@ -43,10 +43,9 @@ function renderUserPage($username) {
 
     ');
 
-    require('providers/aboutme/main.php');
-    require('providers/accounts/main.php');
-    require('providers/pronouns/main.php');
-    require('providers/games/main.php');
+    foreach ( $data["include"] as $provider ) {
+        require('providers/' . $provider . '/main.php');
+    }
 
     echo('
 
