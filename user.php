@@ -3,6 +3,9 @@
 require("getdata.php");
 require("providers/provinc.php");
 
+ini_set('display_errors',0);
+error_reporting(E_ALL|E_STRICT);
+
 function renderUserPage($username) {
     $data = getData($username);
 
