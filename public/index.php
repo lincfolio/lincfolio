@@ -2,6 +2,8 @@
 
 require("../vendor/autoload.php");
 
+error_reporting(0);
+
 $klein = new \Klein\Klein();
 
 $klein->respond('/[:username]', function ($request) {
